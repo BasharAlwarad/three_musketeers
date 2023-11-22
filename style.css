@@ -5,3 +5,26 @@
 /* main */
 
 /* footer */
+
+/* contacts page */
+
+form {
+  max-width: 400px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.field:has(:invalid) {
+  color: red;
+}
+.field:has(:valid) {
+  color: green;
+}
+.field:has(:placeholder-shown) {
+  color: black;
+}
