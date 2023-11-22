@@ -26,5 +26,5 @@ form {
   color: green;
 }
 .field:has(:placeholder-shown) {
-  color: black;
+  color: currentColor;
 }
